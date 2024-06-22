@@ -15,5 +15,5 @@ class TestCalculator(unittest.TestCase):
 		self.assertEqual(divide(20,4),5)
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
 	unittest.main()
